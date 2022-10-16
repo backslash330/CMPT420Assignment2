@@ -1,0 +1,93 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# CMPT/MATH 420 - Assignment 2 fall 2022, Dr. Ben Cameron\n",
+    "# Name:\n",
+    "# Student Number:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# define your LagrangePoly function here\n",
+    "def LagrangeInterpolation(points):\n",
+    "    #function body goes here"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# tests for  LagrangePoly\n",
+    "print(\"Test 1: Example 1, worksheet 3.1.1-2\")\n",
+    "print(LagrangeInterpolation([[1,2],[5,4]]])))\n",
+    "print(\"******************************************\")\n",
+    "print(\"Test 2: Example 2 (the second one), worksheet 3.2, but not quite what we got.\")\n",
+    "print(LagrangeInterpolation([[0,0],[2,4],[3.6,7.2],[4,8],[5,10]])))\n",
+    "print(\"******************************************\")\n",
+    "print(\"Test 3: Example 2 (the second one), worksheet 3.2 with decimals in rational form. What a difference!\")\n",
+    "print(LagrangeInterpolation([[0,0],[2,4],[36/10,72/10],[4,8],[5,10]])))\n",
+    "print(\"******************************************\")\n",
+    "print(\"Test 4: Example 3, worksheet 3.2\")\n",
+    "print(LagrangeInterpolation([[2,1],[4,2],[8,3],[16,4])))\n",
+    "print(\"******************************************\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#code for function interpolated at n evenly spaced values in this cell:\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#code for function interpolated at n Chebyshev nodes in this cell:\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "SageMath 9.2",
+   "language": "sage",
+   "name": "sagemath"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
